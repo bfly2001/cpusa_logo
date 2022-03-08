@@ -4,7 +4,7 @@ import { OrbitControls } from './libs/three128/OrbitControls.js';
 
 import { addAmbientLighting, addSky, dumpObject, createSpotLight, createSpotLightRepr, createCylinder } from './utils.js';
 import { addCameraGUI, updateCameraLookat } from '/gui.js';
-import {cpUSA} from './assets/cpusa.glb'
+import {cpUSA} from 'src/assets/cpusa.glb'
 
 let camera, scene, canvas, cameraControls, renderer
 
